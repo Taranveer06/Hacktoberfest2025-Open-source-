@@ -1,0 +1,50 @@
+<body>
+  <div class="container">
+    <h2>Interview Slot Booking</h2>
+    <p>Please fill in your details correctly to book the earliest slot for the interview.</p>
+    <img src="https://img.freepik.com/free-vector/job-interview-conversation_74855-7566.jpg" alt="interview-img">
+    <form>
+      <div class="form-group">
+        <label for="name">Enter your Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Choose a password:</label>
+        <input maxlength="8" type="password" id="password" name="password" required />
+      </div>
+      <div class="form-group">
+        <label for="Hobbies">Tell us about your work experience</label>
+        <textarea id="Hobbies" name="hobbies" placeholder="I have 6 years experience working as an SDE..." required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="tech-stack">Which tech stack would you like to be interviewed for?</label>
+        <select id="tech-stack" name="tech-stack" required>
+          <option value="">Select</option>
+          <option value="DSA">DSA</option>
+          <option value="WDF">WDF</option>
+          <option value="FE">FE</option>
+          <option value="BE">BE</option>
+  </select><br>
+      </div>
+      <div class="form-group">
+        <label for="time">What is your preferred time?</label>
+        <input type="time" id="time" name="time"required>
+        <input type="week" id="week" name="week" required>
+        <span>Slots are subject to availability</span>
+      </div>
+      <div class="form-group">
+        <label for="week">Please select the correct week corresponding to your most recent interview attempt</label>
+      </div>
+      <div class="form-group">
+        <label for="agree">Agree to terms:</label>
+        <input type="checkbox" id="agree" name="agree" required>
+        <a href="https://www.lipsum.com/">Terms and conditions</a>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+      </div>
+    </form>
+  </div>
+</body>
